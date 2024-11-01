@@ -1,0 +1,32 @@
+{
+  "name": "lucasflixrep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node src/server.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@adminjs/express": "^6.1.0",
+    "@adminjs/sequelize": "^4.1.1",
+    "@adminjs/upload": "^4.0.2",
+    "adminjs": "^7.8.13",
+    "express": "^4.21.1",
+    "express-formidable": "^1.2.0",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.6",
+    "sequelize-cli": "^6.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+"type": "module"
+ 
+}
